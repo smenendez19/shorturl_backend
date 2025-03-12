@@ -1,0 +1,11 @@
+name: shorturl-api-backend
+
+services:
+  shorturlapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./database:/home/database
+    ports:
+      - "8080:8080"

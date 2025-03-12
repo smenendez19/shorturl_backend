@@ -44,6 +44,12 @@ The app needs Python 3.12 to run.
     ./start.sh test
     ```
 
+6. Or, create a Docker container with Docker and run into it:
+
+    ```bash
+    docker-compose up -d
+    ```
+
 ## Endpoints
 
 - GET 'v1/docs' and '/redoc' for the documentation.
